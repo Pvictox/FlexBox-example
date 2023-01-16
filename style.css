@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: #7fffd4;
+    padding: 15px 20px;
+    color: floralwhite;
+    display: flex;
+    justify-content: center;
+}
+
+.top-menu{
+    /* border: 2px solid rgb(172, 98, 98); */
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 850px;
+}
+
+.top-logo img{
+    height: auto;
+    width: 100px;
+    margin-left: 5px;
+}
+
+/*.links{
+    display: flex;
+    justify-content: flex-end;
+}*/
+
+.signup{
+    margin-left: auto;
+}
+.signup,
+.login{
+    /* align-self: center; */
+    padding-left: 10px;
+    font-family: cursive;
+}
+
+.login{
+    margin-right: 5px;
+}
+
+/*
+ ================== HEADER-CONTAINER =================
+*/
+
+.head-container{
+    background-color: rgb(37, 37, 115);
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    /* border: 3px solid red; */
+}
+
+/* Align items serve para posicionamento vertical
+    de uma flex box */
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 15px;
+    width: 1050px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f0e9e9;
+    align-items: center; 
+    /* border: solid 3px red; */
+}
+
+.subscribe{
+    margin-right: 10px;   
+}
+
+.header-socials img{
+    margin-left: 10px;
+    width: 90px;
+    height: auto;
+}
+
+/*
+ ================== Photo grid =================
+*/
+
+.photo-grid-container{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.photo-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 3px solid yellow; */
+    width: 950px;
+    flex-direction: row;
+    /* align-content: center; */
+}
+
+.inicio{
+    order: -1;
+}
+
+.fim{
+    order: 1;
+}
+
+/*
+ ================== Footer =================
+*/
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #489279;
+}
+
+.footer-item{
+    display: flex;
+    /* justify-content: center; */
+    height: 150px;
+    border: 1px solid white;
+    flex:1
+}
+
+.primeiro,.terceiro{
+    flex: initial;
+    width: 300px;
+}
+
+.segundo{
+    flex: 1;
+    background-color: crimson;
+}
